@@ -104,7 +104,7 @@ export default function ShoppingCartModal() {
                             </div>
                             <div className='cart-total'>
                                 <div>Subtotal</div>
-                                <div>${total.toFixed(2)}</div>
+                                <div>₹{total.toFixed(2)}</div>
                             </div>
                         </div>
                         <div className='cart-buttons'>

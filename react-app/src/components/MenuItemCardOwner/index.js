@@ -28,7 +28,7 @@ export default function MenuItemCardOwner({ menuItem }) {
                 {menuItem.name}
               </div>
               <div id='menu-item-owner-price'>
-                ${menuItem.price}
+                ₹{menuItem.price}
               </div>
             </span>
             <span id='menu-item-owner-info-col-2'>

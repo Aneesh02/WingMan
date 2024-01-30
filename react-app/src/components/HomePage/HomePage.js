@@ -25,7 +25,7 @@ export default function HomePage() {
         <div>
           <span id='homePageBannerTextOverlay'>
             Enjoy top dining<br></br>
-            in Vancouver
+            in IIT Bhilai
           </span>
         </div>
       </div>

@@ -33,7 +33,7 @@ function WalletLandingPage() {
             Current Amount:
           </div>
           <div className="wallet-number">
-            $ {(+sessionUser.wallet).toLocaleString()}
+            ₹ {(+sessionUser.wallet).toLocaleString()}
           </div>
           <div>
             {/* <OpenModalButton

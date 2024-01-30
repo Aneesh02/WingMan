@@ -102,7 +102,7 @@ export default function MenuItemDetails() {
                     {menuItem.name}
                   </div>
                   <div className='menu-item-details-price'>
-                    ${menuItem.price}
+                    ₹{menuItem.price}
                   </div>
                   <div className='menu-item-details-description'>
                     {menuItem.description}

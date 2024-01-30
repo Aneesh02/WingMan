@@ -112,7 +112,7 @@ export default function CheckoutPage() {
                             {cart.length ? cart.map(item => (
                                 <div className='item-entry'>
                                     <div>1 {item.name}</div>
-                                    <div>${item.price.toFixed(2)}</div>
+                                    <div>₹{item.price.toFixed(2)}</div>
                                 </div>
                             )) : (
                                 <div className='item-entry'>
@@ -131,20 +131,20 @@ export default function CheckoutPage() {
                         <div className='checkout-item-list'>
                             <div className='item-entry'>
                                 <div>Subtotal</div>
-                                <div>${subtotal.toFixed(2)}</div>
+                                <div>₹{subtotal.toFixed(2)}</div>
                             </div>
                             <div className='item-entry'>
                                 <div>Testing Fee</div>
-                                <div>${handleTestingFee()}</div>
+                                <div>₹{handleTestingFee()}</div>
                             </div>
                             <div className='item-entry'>
                                 <div>Taxes & Other Fees</div>
-                                <div>${handleTax()}</div>
+                                <div>₹{handleTax()}</div>
                             </div>
                         </div>
                         <div className='checkout-header'>
                             <div>Total</div>
-                            <div>${handleTotal()}</div>
+                            <div>₹{handleTotal()}</div>
                         </div>
                     </div>
                 </div>

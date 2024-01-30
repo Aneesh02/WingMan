@@ -13,7 +13,7 @@ export default function MenuItemCard({ menuItem }) {
             {menuItem.name}
           </div>
           <div className='menu-item-price'>
-            ${menuItem.price}
+           ₹{menuItem.price}
           </div>
         </div>
       </Link>

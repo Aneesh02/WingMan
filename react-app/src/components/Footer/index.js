@@ -16,7 +16,7 @@ export default function Footer() {
         <div id='footer-col-1'>
           <Link exact to="/">
             <div id='footer-logo-text'>
-              Vancouber<span id='logo-eats-text'>Eats</span>
+              Wingman<span id='logo-eats-text'></span>
             </div>
           </Link>
         </div>
@@ -55,51 +55,51 @@ export default function Footer() {
             <div className='footer-right-header'>Contact Us</div>
             <div className='footer-list'>
               <div className='footer-name'>
-                <a href="https://willcampbell.xyz" target="_blank" rel="noopener noreferrer">
-                  <div>Will Campbell</div>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <div>Madhur Jain</div>
                 </a>
                 <div className='footer-links'>
-                  <a href="https://www.linkedin.com/in/will-campbell22/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/madhur-jain-37a243218/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/wpcamp" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/immortalcodes" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </div>
               </div>
               <div className='footer-name'>
-                <a href="https://emaranowski.com" target="_blank" rel="noopener noreferrer">
-                  <div>Erica Maranowski</div>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <div>Aneesh Tickoo</div>
                 </a>
                 <div className='footer-links'>
-                  <a href="https://www.linkedin.com/in/erica-maranowski/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/aneeshtickoo/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/emaranowski" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/Aneesh02" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </div>
               </div>
               <div className='footer-name'>
-                <a href="https://joshapascual.com" target="_blank" rel="noopener noreferrer">
-                  <div>Josh Pascual</div>
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <div>Aman Vishnoi</div>
                 </a>
                 <div className='footer-links'>
-                  <a href="https://www.linkedin.com/in/josh-pascual/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/amanvishnoi777/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/joshpas24" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/VishnoiAman777" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </div>
               </div>
               <div className='footer-name'>
-                <div>Eric Sapsford</div>
+                <div>Ankit Soni</div>
                 <div className='footer-links'>
-                  <a href="https://www.linkedin.com/in/eric-sapsford-a2605b298/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://www.linkedin.com/in/ankit-soni-889906112/" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-linkedin"></i>
                   </a>
-                  <a href="https://github.com/EricSapsford" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/3Ankit3" target="_blank" rel="noopener noreferrer">
                     <i class="fa-brands fa-github"></i>
                   </a>
                 </div>
@@ -109,7 +109,7 @@ export default function Footer() {
         </div>
       </div>
       <div id='footer-copyright'>
-        @ 2023 Vancouber Eats
+        @ 2024 Wingman
       </div>
     </>
   )

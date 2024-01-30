@@ -29,7 +29,7 @@ export default function Navigation({ isLoaded }) {
         {isLoaded && (<ProfileButton user={sessionUser} />)}
         <NavLink exact to="/">
           <span id='nav-logo-text'>
-            Vancouber<span id='logo-eats-text'>Eats</span>
+            Wingman<span id='logo-eats-text'></span>
           </span>
         </NavLink>
       </span>
