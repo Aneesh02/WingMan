@@ -87,10 +87,10 @@ export default function RestaurantDetails() {
                     <span></span> {restaurant.category === 'Fast_Food' ? 'Fast Food' : restaurant.category} •
                   </span>
                   <span>
-                    {restaurant.priceRange === 1 ? ' $' : ''}
-                    {restaurant.priceRange === 2 ? ' $$' : ''}
-                    {restaurant.priceRange === 3 ? ' $$$' : ''}
-                    {restaurant.priceRange === 4 ? ' $$$$' : ''}
+                    {restaurant.priceRange === 1 ? ' ₹' : ''}
+                    {restaurant.priceRange === 2 ? ' ₹₹' : ''}
+                    {restaurant.priceRange === 3 ? ' ₹₹₹' : ''}
+                    {restaurant.priceRange === 4 ? ' ₹₹₹₹' : ''}
                   </span>
                   <span>
                     <span></span>    <a className='restaurant-read-reviews' href='#reviewHeader'>Read Reviews</a>
@@ -112,10 +112,10 @@ export default function RestaurantDetails() {
                   </span>
                   <span>
                     <span></span> • <span></span>
-                    {restaurant.priceRange === 1 ? '$' : ''}
-                    {restaurant.priceRange === 2 ? '$$' : ''}
-                    {restaurant.priceRange === 3 ? '$$$' : ''}
-                    {restaurant.priceRange === 4 ? '$$$$' : ''}
+                    {restaurant.priceRange === 1 ? '₹' : ''}
+                    {restaurant.priceRange === 2 ? '₹₹' : ''}
+                    {restaurant.priceRange === 3 ? '₹₹₹' : ''}
+                    {restaurant.priceRange === 4 ? '₹₹₹₹' : ''}
                   </span>
                 </div>
               </div>}

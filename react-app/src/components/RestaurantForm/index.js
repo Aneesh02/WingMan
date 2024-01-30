@@ -292,49 +292,49 @@ export default function RestaurantForm({ restaurant, formType }) {
                       <input
                         className="restaurant-form-radio-input"
                         type="radio"
-                        id="$"
+                        id="₹"
                         name="priceRange"
                         value={1}
                         onChange={(e) => setPriceRange(e.target.value)}
                         defaultChecked={formType === "Update Restaurant" && priceRange === 1}
                       />
-                      <label htmlFor="$">$</label>
+                      <label htmlFor="₹">₹</label>
                     </div>
                     <div>
                       <input
                         className="restaurant-form-radio-input"
                         type="radio"
-                        id="$$"
+                        id="₹₹"
                         name="priceRange"
                         value={2}
                         onChange={(e) => setPriceRange(e.target.value)}
                         defaultChecked={formType === "Update Restaurant" && priceRange === 2}
                       />
-                      <label htmlFor="$$">$$</label>
+                      <label htmlFor="₹₹">₹₹</label>
                     </div>
                     <div>
                       <input
                         className="restaurant-form-radio-input"
                         type="radio"
-                        id="$$$"
+                        id="₹₹₹"
                         name="priceRange"
                         value={3}
                         onChange={(e) => setPriceRange(e.target.value)}
                         defaultChecked={formType === "Update Restaurant" && priceRange === 3}
                       />
-                      <label htmlFor="$$$">$$$</label>
+                      <label htmlFor="₹₹₹">₹₹₹</label>
                     </div>
                     <div>
                       <input
                         className="restaurant-form-radio-input"
                         type="radio"
-                        id="$$$$"
+                        id="₹₹₹₹"
                         name="priceRange"
                         value={4}
                         onChange={(e) => setPriceRange(e.target.value)}
                         defaultChecked={formType === "Update Restaurant" && priceRange === 4}
                       />
-                      <label htmlFor="$$$$">$$$$</label>
+                      <label htmlFor="₹₹₹₹">₹₹₹₹</label>
                     </div>
                   </fieldset>
                   {errors[0] === 'price_range : This field is required.' ?

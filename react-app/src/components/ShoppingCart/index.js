@@ -91,7 +91,7 @@ export default function ShoppingCartModal() {
                                         <div className='item-entry'>
                                             <div>1 {item.name}</div>
                                             <div className='item-entry-right'>
-                                                <div>${item.price.toFixed(2)}</div>
+                                                <div>₹{item.price.toFixed(2)}</div>
                                                 <div>
                                                     <button className='item-entry-delete' onClick={(e) => deleteItem(e, item.id)}>
                                                         <i class="fa-regular fa-trash-can"></i>

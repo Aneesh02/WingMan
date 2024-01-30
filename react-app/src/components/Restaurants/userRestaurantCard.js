@@ -16,7 +16,7 @@ function UserRestaurantCard({ restaurant }) {
 
   let priceRangeString = "";
   for (let index = 0; index < restaurant.priceRange; index++) {
-    priceRangeString += "$"
+    priceRangeString += "₹"
   }
 
   const currentRestCard = useSelector(state => state.restaurant.usersRestaurants[restaurant.id])
