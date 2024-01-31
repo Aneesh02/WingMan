@@ -1,4 +1,4 @@
-from flask import Blueprint, request
+from flask import Blueprint, request,session
 from ..models.db import db, User, Restaurant, MenuItem, Review, Order
 from ..forms.menu_item_form import MenuItemForm
 from ..forms.restaurant_form import RestaurantForm
@@ -75,7 +75,11 @@ def create_menu_item_for_rest(id):
     """
     form = MenuItemForm()
     form['csrf_token'].data = request.cookies['csrf_token']
-
+    restaurant_details = Restaurant.query.get(id)
+    if not restaurant_details or int(restaurant_details.owner_id) != int(current_user.id):
+        print("Not authorized to create menu item for this restaurant")
+        return { "errors": "You are not authorized to create a menu item for this restaurant" }, 401
+        
     if form.validate_on_submit():
         new_item = MenuItem(
             restaurant_id = id,
