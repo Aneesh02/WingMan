@@ -49,12 +49,12 @@ function WalletLandingPage() {
             modalComponent={<Charity />}
           />
         </div> */}
-          <div className="rainbow-div">
+          {/* <div className="rainbow-div">
             <OpenModalButton
               buttonText="Donate to the developers"
               modalComponent={<DonateToTheDevelopers />}
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </>
